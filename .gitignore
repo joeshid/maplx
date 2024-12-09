@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+unpackage/
+dist/
+.hbuilderx/
+.idea/
+*.log
+*.zip
+*.rar
+.env

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>高德地图</title>
+    <script>
+      var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+        CSS.supports('top: constant(a)'))
+      document.write(
+        '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+        (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+    </script>
+    <script type="text/javascript">
+      window._AMapSecurityConfig = {
+        securityJsCode: '024c74bd83b3882d0ba493a986afc3b6',
+      }
+    </script>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=d0347808d42755d8deebe027d962ee32&plugin=AMap.Scale,AMap.ToolBar,AMap.Geolocation"></script>
+  </head>
+  <body>
+    <div id="app"><!--app-html--></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

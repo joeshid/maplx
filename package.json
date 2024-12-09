@@ -1,0 +1,21 @@
+{
+  "name": "maplx",
+  "version": "1.0.0",
+  "description": "高精度移动地图应用",
+  "main": "main.js",
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "map",
+    "poi",
+    "location"
+  ],
+  "author": "",
+  "license": "ISC"
+}
