@@ -1,5 +1,6 @@
 // 阿里云API配置
-const API_KEY = 'sk-49302c14e5194e33967670b6e991ba0d'
+import config from '../config.js'
+const API_KEY = config.ALIYUN_API_KEY
 
 /**
  * 获取认证头信息

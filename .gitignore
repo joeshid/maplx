@@ -8,3 +8,6 @@ dist/
 *.zip
 *.rar
 .env
+# 配置文件
+config.js
+manifest.json

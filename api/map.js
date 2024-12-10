@@ -1,5 +1,7 @@
 // 腾讯地图WebService API
-const KEY = 'V23BZ-6OH6V-U7UPT-57F57-UGU2Q-V7BYW' // 替换为你的腾讯地图Key
+import config from '../config.js'
+
+const KEY = config.TENCENT_MAP_KEY // 从配置文件中获取腾讯地图Key
 const BASE_URL = 'https://apis.map.qq.com/ws'
 
 // 坐标转换（GCJ02 to BD09）

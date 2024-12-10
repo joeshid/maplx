@@ -1,5 +1,7 @@
+import config from '../config.js'
+
 // 使用通义千问API生成解说词
-const DASHSCOPE_API_KEY = 'sk-49302c14e5194e33967670b6e991ba0d' // 通义千问 API key
+const DASHSCOPE_API_KEY = config.ALIYUN_API_KEY // 从配置文件中获取通义千问 API key
 
 // 支持的语言列表
 export const SUPPORTED_LANGUAGES = [
